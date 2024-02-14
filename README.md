@@ -9,3 +9,27 @@ In Time Series Classification (TSC), temporal pooling methods that consider sequ
 * We propose SoM-TP, a new temporal pooling method that fully utilizes the diverse temporal pooling mechanisms through an MCL-inspired selection ensemble.
 * We employ an attention mechanism to enable a non-iterative ensemble in a single classifier.
 * We define DPLN and perspective loss as a regularizer to promote diverse pooling selection.
+## Running the codes
+### STEP 1. Download the benchmark datsets for time series classification
+* The datasets can be downloaded form the [UCR/UEA repository](https://www.timeseriesclassification.com/).
+* Create a directory named "data" and store downloaded datasets within it.
+### STEP 2. Train the CNN classifier with various temporal poolings including SoM-TP
+For traditional temporal poolings,
+```
+python main.py --model=ConvPool --pool=DTP
+```
+and for SoM-TP
+```
+python main.py --model=SoMTP
+```
+### STEP 3. Run LRP (Layer-wise Relevance Propagation: XAI input attribution method)
+For traditional temporal poolings,
+```
+python LRP.py --model=ConvPool --pool=DTP
+```
+and for SoM-TP
+```
+python LRP.py --model=SoMTP
+```
+### Citation
+Will be uploaded soon...
