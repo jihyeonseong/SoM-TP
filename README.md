@@ -31,5 +31,15 @@ and for SoM-TP
 ```
 python LRP.py --model=SoMTP
 ```
-### Citation
+### SoM-TP performance
+1. Comparison with traditional temporal poolings
+![image](https://github.com/jihyeonseong/SoM-TP/assets/159874470/c207799c-68f7-4e47-9deb-d8cc97548c80)
+2. Comparison with advanced TSC methods
+![image](https://github.com/jihyeonseong/SoM-TP/assets/159874470/8c6f37c3-f5e2-4ef0-807b-a280368cab41)
+3. SoM-TP dynamic selection 
+![image](https://github.com/jihyeonseong/SoM-TP/assets/159874470/a99e3d26-fe76-4a9f-acaa-1c807dfb1b08)
+4. LRP comparison
+![image](https://github.com/jihyeonseong/SoM-TP/assets/159874470/4567dc17-2b27-41d3-9ecf-843682ebab8a)
+
+## Citation
 Will be uploaded soon...
